@@ -3,7 +3,7 @@ on:
   push:
     branches:
     - master
-    - add-deploy-website-action
+    - add-deploy-github-action
 
 jobs:
   deploy-master
