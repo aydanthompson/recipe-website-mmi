@@ -3,7 +3,6 @@ on:
   push:
     branches:
     - master
-    - add-deploy-github-action
 
 jobs:
   deploy-master:
