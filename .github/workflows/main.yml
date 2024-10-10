@@ -6,7 +6,7 @@ on:
     - add-deploy-github-action
 
 jobs:
-  deploy-master
+  deploy-master:
     name: Deploy master
     runs-on: ubuntu-latest
     steps:
