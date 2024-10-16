@@ -27,3 +27,7 @@ nav .navbar-brand {
   font-weight: 500;
   font-style: normal;
 }
+
+nav ul li a i {
+  margin-right: 2px;
+}
