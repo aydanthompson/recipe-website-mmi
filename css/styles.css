@@ -4,6 +4,10 @@ nav .navbar-brand {
   font-style: normal;
 }
 
+nav ul li a i {
+  margin-right: 4px;
+}
+
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -26,8 +30,4 @@ nav .navbar-brand {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
-}
-
-nav ul li a i {
-  margin-right: 4px;
 }
