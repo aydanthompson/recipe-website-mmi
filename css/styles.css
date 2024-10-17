@@ -11844,13 +11844,34 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-nav .navbar-brand {
-  font-family: "Roboto", sans-serif;
+header .page-header-top {
+  padding: 40px 40px 40px 0;
+}
+header .page-header-top img {
+  max-width: 200px;
+}
+
+header nav {
+  background-color: #66d891;
+}
+header nav a.nav-link,
+header nav a.nav-link:hover,
+header nav a.nav-link:active {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #393e4f;
+}
+header nav .navbar-brand {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-weight: 300;
   font-style: normal;
 }
-nav ul li a i {
+header nav ul li a i {
   margin-right: 4px;
+}
+
+body {
+  background-color: #393e4f;
 }
 
 .roboto-thin {
