@@ -11868,6 +11868,10 @@ header .page-header-top img {
   max-width: 200px;
 }
 
+footer p {
+  font-size: 0.9rem;
+}
+
 header nav {
   background-color: #66d891;
 }
