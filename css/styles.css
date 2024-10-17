@@ -11844,6 +11844,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  font-family: "Calibri";
+}
+
+h1, .h1 {
+  font-weight: 100;
+  color: #fff;
+  font-size: 2.2rem;
+  border-bottom: solid 2px #66d891;
+}
+
+p {
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+
 header .page-header-top {
   padding: 40px 0px 40px 0;
 }
@@ -11870,8 +11887,17 @@ header nav ul li a i {
   margin-right: 4px;
 }
 
+.btn.btn-studenteat {
+  background-color: #66d891;
+  color: #393e4f;
+}
+
 body {
   background-color: #393e4f;
+}
+
+img {
+  max-width: 100%;
 }
 
 .roboto-thin {
