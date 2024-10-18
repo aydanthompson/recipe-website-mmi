@@ -9571,6 +9571,23 @@ header nav .navbar-brand {
   height: 200px;
 }
 
+body#page-login form label {
+  color: #fff;
+}
+body#page-login #registration-form {
+  background-color: #66d891;
+  padding: 10px;
+  border-radius: 3px;
+}
+body#page-login #registration-form label {
+  color: #393e4f;
+}
+body#page-login #registration-form .btn {
+  background-color: #fff;
+  color: #393e4f;
+  border: 0;
+}
+
 body {
   background-color: #393e4f;
 }
