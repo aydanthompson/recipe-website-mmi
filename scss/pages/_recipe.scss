@@ -1,0 +1,30 @@
+body#page-recipe {
+  .recipe-image {
+    border: solid 3px #fff;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    a {
+      display: block;
+      height: 150px;
+    }
+  }
+
+  .recipe-features {
+    list-style: none;
+    // Padding from step 20 does not match screenshot.
+    // padding 0;
+    color: #fff;
+
+    li {
+      margin-bottom: 10px;
+
+      i {
+        text-align: center;
+        width: 27px;
+      }
+    }
+  }
+}

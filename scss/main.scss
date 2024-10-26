@@ -3,6 +3,7 @@
 
 // Vendors
 @import "vendors/bootstrap";
+@import "../node_modules/lightbox2/dist/css/lightbox.min.css";
 
 // Base
 @import "base/typography";
@@ -18,6 +19,7 @@
 
 // Pages
 @import "pages/login";
+@import "pages/recipe";
 
 // Themes
 @import "themes/theme";
