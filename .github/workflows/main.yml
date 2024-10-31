@@ -25,3 +25,4 @@ jobs:
           remote-password: ${{ secrets.FTP_PASSWORD }}
           remote-path: "/httpdocs"
           remote-port: 22
+          sync: full
