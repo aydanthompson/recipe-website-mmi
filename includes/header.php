@@ -12,10 +12,10 @@
     rel="stylesheet">
 </head>
 
-<body id="page-home">
+<body id="page-<?php echo $page; ?>">
   <header>
     <div class="page-header-top container text-center text-md-start">
-      <a href="index.html"><img src="./images/logo.jpg" alt="StudentEat"></a>
+      <a href="index.php?p=home"><img src="./images/logo.jpg" alt="StudentEat"></a>
     </div>
 
     <nav class="navbar navbar-expand-lg mb-4">
@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav me-auto mb-2 mb-lg 0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html"></i>Home</i> </a>
+              <a class="nav-link" href="index.php?p=home"></i>Home</i> </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="categories.html"></i>Categories</i> </a>
+              <a class="nav-link" href="index.php?p=categories"></i>Categories</i> </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html"></i> Login / Register</a>
+              <a class="nav-link" href="index.php?p=login"></i> Login / Register</a>
             </li>
           </ul>
           <form action="search.html" method="get" class="d-flex">
