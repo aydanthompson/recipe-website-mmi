@@ -1,5 +1,5 @@
 <?php
-include "../database_config.php";
+include __DIR__ . "/../database_config.php";
 
 define("DB_HOST", $db_host);
 define("DB_NAME", $db_name);
