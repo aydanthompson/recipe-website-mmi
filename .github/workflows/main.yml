@@ -23,6 +23,6 @@ jobs:
           remote-host: ${{ secrets.FTP_HOST }}
           remote-user: ${{ secrets.FTP_USERNAME }}
           remote-password: ${{ secrets.FTP_PASSWORD }}
-          remote-path: "/httpdocs"
+          remote-path: ${{ vars.FTP_PATH }}
           remote-port: 22
           sync: delta
