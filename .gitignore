@@ -1,2 +1,7 @@
 /node_modules
 /.vscode
+
+# Live Server (Five Server) extension configuration.
+fiveserver.config.js
+
+database_config.php

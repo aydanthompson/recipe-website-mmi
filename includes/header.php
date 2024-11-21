@@ -12,10 +12,10 @@
     rel="stylesheet">
 </head>
 
-<body id="page-home">
+<body id="page-<?php echo $page; ?>">
   <header>
     <div class="page-header-top container text-center text-md-start">
-      <a href="index.html"><img src="./images/logo.jpg" alt="StudentEat"></a>
+      <a href="index.php?p=home"><img src="./images/logo.jpg" alt="StudentEat"></a>
     </div>
 
     <nav class="navbar navbar-expand-lg mb-4">
@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav me-auto mb-2 mb-lg 0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html"></i>Home</i> </a>
+              <a class="nav-link" href="index.php?p=home"></i>Home</i> </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="categories.html"></i>Categories</i> </a>
+              <a class="nav-link" href="index.php?p=categories"></i>Categories</i> </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html"></i> Login / Register</a>
+              <a class="nav-link" href="index.php?p=login"></i> Login / Register</a>
             </li>
           </ul>
           <form action="search.html" method="get" class="d-flex">
@@ -45,28 +45,3 @@
     </nav>
     </head>
   </header>
-
-  <div class="container">
-    <h1 class="mb-4 pb-2">Welcome to StudentEat</h1>
-    <div class="row">
-      <div class="col-lg-9">
-        <p>StudentEat will find you the best recipes you can make without breaking the bank!</p>
-        <p>Dine like royalty with our range of top-notch starters, mains, and desserts.</p>
-        <p>Remember to leave us a review!</p>
-        <a href="categories.html" class="btn btn-studenteat">Browse recipes</a>
-      </div>
-      <div class="col-lg-3">
-        <img src="./images/plate.png" alt="Plate of food">
-      </div>
-    </div>
-  </div>
-
-  <footer class="container mt-4 text-center">
-    <p>&copy;StudentEat - Created for educational purposes</p>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/68408a1f76.js" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
-
-</html>
